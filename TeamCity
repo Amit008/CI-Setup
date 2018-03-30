@@ -1,5 +1,6 @@
 
 Installing and configuring Teamcity locally for build and deploy BW6 and AMX BPM code.
-download docker image for teamcity:
+download docker image for teamcity:<br>
+
 
 docker pull jetbrains/teamcity-server
