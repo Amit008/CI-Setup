@@ -6,11 +6,12 @@ I'm using Gitlab community edition for this Exercise:
   --Docker is Pre-installed if not follow the link based on your OS
   https://docs.docker.com/install/
   
-  --download gitlab community edition docker image from gitlab docker hub<br>
+  --download gitlab community edition docker image from gitlab docker hub <br>
   --run docker command to pull the docker image:
     docker pull gitlab/gitlab-ce
   
-  --Modify the volume location as per your base os location: 
+  --Modify the volume location as per your base os location:<br>
+  
     sudo docker run --detach \
     --hostname gitlab.example.com \
     --publish 443:443 --publish 80:80 --publish 22:22 \
