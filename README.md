@@ -7,7 +7,9 @@ I'm using Gitlab community edition for this Exercise:
   https://docs.docker.com/install/
   
   --download gitlab community edition docker image from gitlab docker hub <br>
-  --run docker command to pull the docker image:
+ 
+ --run docker command to pull the docker image:<br>
+ 
     docker pull gitlab/gitlab-ce
   
   --Modify the volume location as per your base os location:<br>
