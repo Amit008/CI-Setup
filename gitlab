@@ -20,4 +20,5 @@ sudo docker run --detach \
 --volume /srv/gitlab/data:/var/opt/gitlab \
 gitlab/gitlab-ce:latest
 
-Integrating gitlab Community Edition:
+
+--Login to gitlab community edition and change the password for root.
