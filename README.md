@@ -10,7 +10,8 @@ I'm using Gitlab community edition for this Exercise:
     run docker command to pull the docker image:
     docker pull gitlab/gitlab-ce
   
-sudo docker run --detach \
+  --Modify the volume location as per your base os location: 
+    sudo docker run --detach \
     --hostname gitlab.example.com \
     --publish 443:443 --publish 80:80 --publish 22:22 \
     --name gitlab \
