@@ -20,5 +20,6 @@ sudo docker run --detach \
 --volume /srv/gitlab/data:/var/opt/gitlab \
 gitlab/gitlab-ce:latest
 
-
 --Login to gitlab community edition and change the password for root.
+using below mentioned URL
+http://localhost/users/sign_in
