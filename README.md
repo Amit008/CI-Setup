@@ -1,23 +1,11 @@
 # CI-Setup
 Installing and Configuring Multiple Continuous Integration support
+planning to Use following tools to configure CI /CD for TIBCO products.
 
-Setup Source Code Repository:
-I'm using Gitlab community edition for this Exercise:
-  --Docker is Pre-installed if not follow the link based on your OS
-  https://docs.docker.com/install/
-  
-  --download gitlab community edition docker image from gitlab docker hub by running docker command to pull the docker image:<br>
- 
-    docker pull gitlab/gitlab-ce
-  
-  --Modify the volume location as per your base os location:<br>
-  
-    sudo docker run --detach \
-    --hostname gitlab.example.com \
-    --publish 443:443 --publish 80:80 --publish 22:22 \
-    --name gitlab \
-    --restart always \
-    --volume /srv/gitlab/config:/etc/gitlab \
-    --volume /srv/gitlab/logs:/var/log/gitlab \
-    --volume /srv/gitlab/data:/var/opt/gitlab \
-    gitlab/gitlab-ce:latest
+Code Repository:
+gitlab community edition
+
+CI Servers:
+
+Teamcity,Jenkins
+
