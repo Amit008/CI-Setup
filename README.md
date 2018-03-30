@@ -6,7 +6,7 @@ I'm using Gitlab community edition for this Exercise:
   --Docker is Pre-installed if not follow the link based on your OS
   https://docs.docker.com/install/
   
-  --download gitlab community edition docker image from gitlab docker hub
+  --download gitlab community edition docker image from gitlab docker hub<br>
   --run docker command to pull the docker image:
     docker pull gitlab/gitlab-ce
   
